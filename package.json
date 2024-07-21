@@ -1,5 +1,5 @@
 {
-  "name": "codespaces-react",
+  "name": "react-dasiy-base",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,15 +9,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^3.1.0"
+    "web-vitals": "^3.1.0",
+    "tailwindcss": "^3.3.3",  
+    "daisyui": "^3.0.0"      
   },
-  "overrides": {
-    "@svgr/webpack": "^8.0.1",
-    "@adobe/css-tools": "^4.3.1",
-    "postcss": "^8.4.31"
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.39"     
   },
   "scripts": {
-    "start": "BROWSER=none WDS_SOCKET_PORT=0 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
